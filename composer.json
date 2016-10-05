@@ -10,8 +10,20 @@
         "mobiledetect/mobiledetectlib": "2.*",
         "cakephp/migrations": "~1.0",
         "cakephp/plugin-installer": "*",
-        "fzaninotto/faker": "^1.6"
+        "fzaninotto/faker": "^1.6",
+        "behat/behat": "2.5.*@stable",
+        "behat/symfony2-extension": "@stable",
+        "behat/mink": "@stable",
+        "behat/mink-extension": "@stable",
+        "behat/mink-goutte-driver": "1.*@stable",
+        "behat/mink-selenium2-driver": "@stable",
+
+        "fabpot/goutte": "1.*@stable"
     },
+     "config": {
+        "bin-dir": "bin/"
+    },
+
     "require-dev": {
         "psy/psysh": "@stable",
         "cakephp/debug_kit": "~3.2",
